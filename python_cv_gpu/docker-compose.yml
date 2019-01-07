@@ -1,0 +1,9 @@
+version: '2.3'
+services:
+  notebooks:
+    build: .
+    runtime: nvidia
+    ports:
+      - "8888:8888"
+    volumes:
+      - $PWD:/notebooks/
