@@ -2,3 +2,4 @@ plotly
 lucid
 opencv-python
 gym
+pandas

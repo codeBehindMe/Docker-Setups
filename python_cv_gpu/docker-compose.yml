@@ -6,4 +6,5 @@ services:
     ports:
       - "8888:8888"
     volumes:
-      - $PWD:/notebooks/
+      - $PWD:/tf/
+    tty: true
